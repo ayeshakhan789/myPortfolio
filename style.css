@@ -13,7 +13,7 @@ p {
   color: #344563;
 }
 
-h5 {
+h4 {
   color: #7f8cff;
 }
 
@@ -86,4 +86,128 @@ nav div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+#work-section {
+  padding-top: 100px;
+}
+
+.project-img {
+  width: 320px;
+  height: 220px;
+  gap: 0px;
+  border-radius: 8px;
+  opacity: 0px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  width: 327px;
+  height: 552px;
+  padding: 16px;
+  gap: 12px;
+  border-radius: 16px;
+  border: 1px;
+  opacity: 0px;
+  border: 1px solid #DFE1E6;
+  background-color: white;
+  margin-bottom: 80px;
+}
+
+.project-name {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.project-info h5 {
+  margin-top: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: left;
+  color: #344563;
+}
+
+
+.project-info ul {
+  display: flex;
+  margin-top: 2px;
+  padding-left: 20px;
+  gap: 20px;
+}
+
+.project-info ul li {
+  color: #7A869A;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: left;
+}
+
+.project-para {
+  width: 295px;
+  height: 76px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.project-para p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-top: 0;
+}
+
+.project-skills {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.project-skills li {
+  background-color: #EBEBFF;
+  color: #6070FF;
+  width: 57px;
+  height: 24px;
+  padding: 10px 20px 4px 12px;
+  border-radius: 8px;
+  opacity: 0px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+
+.seeProject-button {
+  width: 126px;
+  height: 48px;
+  top: 12px;
+  gap: 10px;
+  border-radius: 8px 8px 8px 8px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  color: #6070FF;
+  border-color: #6070FF;
+  background-color: white;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
