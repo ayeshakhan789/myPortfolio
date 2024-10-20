@@ -227,14 +227,11 @@ nav div {
   width: 327px;
   height: 340px;
   gap: 12px;
-  opacity: 0;
 }
 
 .about-myself h1 {
   width: 327px;
   height: 35px;
-  gap: 0;
-  opacity: 0;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
@@ -246,7 +243,6 @@ nav div {
   width: 327px;
   height: 147px;
   gap: 0;
-  opacity: 0;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -286,14 +282,12 @@ nav div {
   width: 327px;
   height: 420.15px;
   gap: 0;
-  opacity: 0;
 }
 
 .skills h3 {
   width: 327px;
   height: 72px;
   gap: 0;
-  opacity: 0;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -305,7 +299,6 @@ nav div {
   width: 327px;
   height: 320.15px;
   gap: 0;
-  opacity: 0;
 }
 
 .language-div {
@@ -329,7 +322,6 @@ nav div {
   height: 248.15px;
   padding: 0;
   gap: 12px;
-  opacity: 0;
   margin: 0;
 }
 
@@ -339,7 +331,6 @@ nav div {
   height: 66.72px;
   gap: 0;
   border-radius: 8px;
-  opacity: 0;
   background-color: #f7f7f9;
 }
 
@@ -348,7 +339,6 @@ nav div {
   height: 48px;
   gap: 0;
   border: 1px 0 0 0;
-  opacity: 0;
   margin-top: 10px;
   margin-left: 15px;
 }
@@ -361,7 +351,6 @@ nav div {
   width: 215px;
   height: 24px;
   gap: 0;
-  opacity: 0;
   padding-top: 25px;
   padding-left: 15px;
   margin: 0;
