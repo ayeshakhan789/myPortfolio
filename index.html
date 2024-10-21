@@ -18,30 +18,39 @@
                 My Logo
             </div>
             <div>
-                <img src="./img1/spanNavbar.png" alt="navbar">
+                <img class="hamburger" src="./img1/spanNavbar.png" alt="navbar">
+                <ul class="links">
+                    <li class="link-items"><a href="#portfolio">Portfolio</a></li>
+                    <li class="link-items"><a href="#about">About</a></li>
+                    <li class="link-items"><a href="#contact">Contact</a></li>
+
+                </ul>
             </div>
         </nav>
     </header>
     <section id="main-sec">
-        <div class="main-sec-headline">
-            <h1> I'm Ayesha. Glad to see you!</h1>
-        </div>
-        <div class="main-sec-para">
-            <p>I’m a software developer! I can help you build a product , feature or website Look through some of my
-                work and experience! If you like what you see and have a project you need coded, don’t hesitate to
-                contact me.</p>
-        </div>
-        <div class="social-icons">
-            <h5>LET'S CONNECT</h5>
-            <div class="icons">
-                <img src="./img1/T.png" alt="twitter">
-                <img src="./img1/Linkedin icon.png" alt="LinkedIn">
-                <img src="./img1/Vector-1.png" alt="Mail">
-                <img src="./img1/G.png" alt="Git">
-                <img src="./img1/Vector.png" alt="Victory">
+        <div>
+            <div class="main-sec-headline">
+                <h1> I'm Ayesha. Glad to see you!</h1>
+            </div>
+            <div class="main-sec-para">
+                <p>I’m a software developer! I can help you build a product , feature or website Look through some of my
+                    work and experience! If you like what you see and have a project you need coded, don’t hesitate to
+                    contact me.</p>
+            </div>
+            <div class="social-icons">
+                <h5>LET'S CONNECT</h5>
+                <div class="icons">
+                    <img src="./img1/T.png" alt="twitter">
+                    <img src="./img1/Linkedin icon.png" alt="LinkedIn">
+                    <img src="./img1/Vector-1.png" alt="Mail">
+                    <img src="./img1/G.png" alt="Git">
+                    <img src="./img1/Vector.png" alt="Victory">
 
+                </div>
             </div>
         </div>
+
     </section>
     <section id="work-section">
         <div class="project-card">
@@ -154,13 +163,15 @@
 
         </div>
     </section>
-    
+
     <section id="aboutme">
         <div class="about-myself">
             <div class="aboutmyself-text">
                 <h1>About Myself</h1>
-                <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of
-                    my work and experience! If you like what you see and have a project you need coded, don’t hesitate to
+                <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some
+                    of
+                    my work and experience! If you like what you see and have a project you need coded, don’t hesitate
+                    to
                     contact me.</p>
             </div>
             <div class="social-icons">
@@ -177,43 +188,54 @@
                 <button class="myresume-button">Get my resume</button>
             </div>
         </div>
-       <div class="skills">
-        <div class="skill-languages">
-            <div class="language-div">
-                <h3>Languages</h3> 
-            <img src="./img1/Union.png" alt="arrow">
+        <div class="skills">
+            <div class="skill-languages">
+                <div class="language-div">
+                    <h3>Languages</h3>
+                    <img src="./img1/Union.png" alt="arrow">
+                </div>
+                <div class="languages-detail">
+                    <ul>
+                        <li class="language-list"><img src="./img1/JavaScript.png" alt="Javascript">
+                            <h6>JavaScript</h6>
+                        </li>
+                        <li class="language-list"><img src="./img1/Ellipse 1.png" alt="HTML">
+                            <h6>HTML</h6>
+                        </li>
+                        <li class="language-list">
+                            <img src="./img1/CSS.png" alt="CSS">
+                            <h6>CSS</h6>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="other-skills">
+                <div>
+                    <h3>Frameworks</h3>
+                    <hr>
+                </div>
+                <div>
+                    <h3>skills</h3>
+                    <hr>
+                </div>
+            </div>
         </div>
-           <div class="languages-detail">
-            <ul>
-            <li class="language-list"><img src="./img1/JavaScript.png" alt="Javascript">
-                <h6>JavaScript</h6></li>
-            <li class="language-list"><img src="./img1/Ellipse 1.png" alt="HTML">
-                <h6>HTML</h6>
-            </li>
-            <li class="language-list">
-                <img src="./img1/CSS.png" alt="CSS">
-                <h6>CSS</h6>
-            </li>
-        </ul>
-    </div>    
-        </div>
-        <div><h3>Frameworks</h3></div>
-        <div><h3>skills</h3></div>
-       </div>
     </section>
     <section id="contact-me">
         <div class="contact-me-text">
             <h1>Contact me</h1>
-        <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
-            I’d love to help with it!</p>
-    </div>
+            <p>If you have an application you are interested in developing, a feature that you need built or a project
+                that needs coding.
+                I’d love to help with it!</p>
+        </div>
         <div class="form-info">
-            <form class="form-sec" action="/submit" method="POST">
+            <form class="form-sec" action="https://formspree.io/f/mdkondnq" method="POST">
                 <input class="form-input" type="text" id="name" name="name" placeholder="Name" required>
-                      
+
                 <input class="form-input" type="email" id="email" name="email" placeholder="Email" required>
-                
-                <textarea class="form-input-textarea" id="message" name="message" placeholder="Write your message here..." rows="4" cols="30" required></textarea>
+
+                <textarea class="form-input-textarea" id="message" name="message"
+                    placeholder="Write your message here..." rows="4" cols="30" required></textarea>
 
                 <button class="submit-button" type="submit">Get in touch</button>
             </form>
