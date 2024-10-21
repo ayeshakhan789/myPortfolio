@@ -3,7 +3,7 @@ body {
   width: 375px;
   margin: 0;
   padding: 0;
-  background-color: #f3f3fa;
+  background-color: #f7f7fa;
 }
 
 h1 {
@@ -23,6 +23,7 @@ h6 {
 }
 
 nav {
+  background-color: white;
   display: flex;
   justify-content: space-between;
   padding: 10px;
@@ -37,7 +38,12 @@ nav div {
   padding-left: 10px;
 }
 
+.links {
+  display: none;
+}
+
 #main-sec {
+  background-color: white;
   display: flex;
   flex-direction: column;
   background-image: url(./img1/mainpage_bg.png);
@@ -105,8 +111,8 @@ nav div {
 }
 
 .project-card {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   width: 327px;
   height: 552px;
   padding: 16px 30px 16px 16px;
@@ -211,10 +217,8 @@ nav div {
 
 #aboutme {
   display: grid;
-  grid-template-rows: 1fr 1fr;
   background-color: #ffff;
   border-top-right-radius: 70px;
-  width: 325px;
   height: 1, 062.15px;
   padding: 114px 24px 114px 24px;
   gap: 24px;
@@ -306,6 +310,7 @@ nav div {
   justify-content: space-between;
   width: 327px;
   height: 72px;
+  margin-top: 40px;
 }
 
 .language-div img {
@@ -323,6 +328,10 @@ nav div {
   padding: 0;
   gap: 12px;
   margin: 0;
+}
+
+.other-skills {
+  margin-top: 40px;
 }
 
 .language-list {
@@ -435,4 +444,178 @@ nav div {
   border: none;
   margin-top: 10px;
   align-self: flex-start;
+}
+
+@media (min-width: 786px) {
+  body {
+    width: 100%;
+  }
+
+  nav {
+    background-color: white;
+  }
+
+  #main-sec {
+    height: 500px;
+    background-color: #fff;
+    background-image: url("./img1/mainpageweb.png");
+    background-repeat: no-repeat;
+    background-size: 1240px 500px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-sec-headline {
+    width: 340px;
+    height: 100px;
+  }
+
+  .main-sec-headline h1 {
+    margin-bottom: 0;
+  }
+
+  .main-sec-para {
+    margin-top: 0;
+    width: 750px;
+    height: 100px;
+  }
+
+  .social-icons h5 {
+    margin-top: 0;
+  }
+
+  .project-card {
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+
+  .project-card:nth-child(2n) {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+
+  .project-card:nth-child(2n) div:first-child {
+    order: 2;
+  }
+
+  .project-card:nth-child(2n) div:last-child {
+    order: 1;
+  }
+
+  .project-img {
+    width: 400px;
+    height: 400px;
+    border-radius: 8px;
+  }
+
+  .project-name {
+    font-size: 24px;
+    color: #1d1d1d;
+    margin-bottom: 10px;
+  }
+
+  .project-info {
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+    color: #6c757d;
+  }
+
+  .project-para {
+    margin-top: 10px;
+    color: #5d5d5d;
+    font-size: 16px;
+    width: 450px;
+  }
+
+  .project-skills {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+  }
+
+  .project-skills li {
+    border-radius: 5px;
+    width: 100px;
+  }
+
+  #aboutme {
+    grid-template-columns: 1fr 1fr;
+    padding-left: 100px;
+  }
+
+  .about-myself p {
+    width: 500px;
+    height: 100px;
+  }
+
+  .languages-detail ul {
+    flex-direction: row;
+    height: 120px;
+  }
+
+  .language-list {
+    display: flex;
+    width: 120px;
+    height: 120px;
+    flex-direction: column;
+  }
+
+  #contact-me {
+    background-image: url("./img1/contactmeweb.png");
+    background-repeat: no-repeat;
+    background-size: 1000px 600px;
+  }
+
+  .contact-me-text p {
+    width: 500px;
+    height: 120px;
+  }
+
+  .submit-button {
+    align-self: center;
+  }
+
+  .links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .link-items a {
+    text-decoration: none;
+    color: #344563;
+  }
+
+  .hamburger {
+    display: none;
+  }
 }
