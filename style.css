@@ -38,10 +38,34 @@ nav div {
   padding-left: 10px;
 }
 
+.hamburger{
+  cursor: pointer;
+}
 .links {
   display: none;
+  flex-direction: column;
+  background-color: white;
+  position: absolute;
+  top: 20px; 
+  right: 10px;
+  width: 100px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  list-style: none;
+  
 }
 
+.links.active {
+  display: flex;
+}
+
+#closeMenu {
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: bold;
+  color: #f00;
+  text-align: right;
+}
 #main-sec {
   background-color: white;
   display: flex;
