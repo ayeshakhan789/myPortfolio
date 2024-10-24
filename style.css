@@ -38,7 +38,6 @@ nav div {
   padding-left: 10px;
 }
 
-
 .hamburger {
   cursor: pointer;
   width: 24px;
@@ -48,7 +47,7 @@ nav div {
 .links {
   display: none;
   flex-direction: column;
-  background-color: #6070FF;
+  background-color: #6070ff;
   position: absolute;
   top: 30px;
   right: 10px;
@@ -57,9 +56,6 @@ nav div {
   padding: 10px;
   list-style: none;
   margin-top: 10px;
-
-
-
 }
 
 .links.active {
@@ -84,7 +80,7 @@ nav div {
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
-  color: black;
+  color: white;
   text-align: right;
   margin-bottom: 10px;
 }
@@ -498,7 +494,6 @@ nav div {
     width: 100%;
   }
 
-
   .hamburger {
     display: none;
   }
@@ -511,7 +506,6 @@ nav div {
     border: none;
     padding: 0;
     margin: 0;
-
   }
 
   .link-items a {
@@ -519,8 +513,7 @@ nav div {
     padding: 0 20px;
     text-align: left;
     font-weight: 500;
-    padding: 0px 10px;
-
+    padding: 0 10px;
   }
 
   .link-items a:hover {
