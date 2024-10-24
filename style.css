@@ -513,7 +513,6 @@ nav div {
     padding: 0 20px;
     text-align: left;
     font-weight: 500;
-    padding: 0 10px;
   }
 
   .link-items a:hover {
@@ -666,25 +665,5 @@ nav div {
 
   .submit-button {
     align-self: center;
-  }
-
-  .links {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 20px;
-    text-align: center;
-  }
-
-  .link-items a {
-    text-decoration: none;
-    color: #344563;
-  }
-
-  .hamburger {
-    display: none;
   }
 }
