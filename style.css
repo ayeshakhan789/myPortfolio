@@ -38,34 +38,52 @@ nav div {
   padding-left: 10px;
 }
 
-.hamburger{
+
+.hamburger {
   cursor: pointer;
+  width: 24px;
+  height: 24px;
 }
+
 .links {
   display: none;
   flex-direction: column;
-  background-color: white;
+  background-color: #344563; 
   position: absolute;
-  top: 20px; 
+  top: 30px;
   right: 10px;
   width: 100px;
-  border: 1px solid #ccc;
+  border: 1px solid #7f8cff; 
   padding: 10px;
   list-style: none;
-  
+  margin-top: 10px;
 }
 
 .links.active {
   display: flex;
 }
 
+.link-items a {
+  text-decoration: none;
+  color: #ebebff; 
+  padding: 10px 0;
+  text-align: center;
+  font-weight: 500; 
+}
+
+.link-items a:hover {
+  color: #b0b6f4;
+}
+
 #closeMenu {
   cursor: pointer;
-  font-size: 10px;
+  font-size: 16px;
   font-weight: bold;
-  color: #f00;
+  color: #f00; 
   text-align: right;
+  margin-bottom: 10px;
 }
+
 #main-sec {
   background-color: white;
   display: flex;
