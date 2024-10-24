@@ -48,15 +48,18 @@ nav div {
 .links {
   display: none;
   flex-direction: column;
-  background-color: #344563; 
+  background-color: #6070FF;
   position: absolute;
   top: 30px;
   right: 10px;
   width: 100px;
-  border: 1px solid #7f8cff; 
+  border: 1px solid #7f8cff;
   padding: 10px;
   list-style: none;
   margin-top: 10px;
+
+
+
 }
 
 .links.active {
@@ -65,10 +68,12 @@ nav div {
 
 .link-items a {
   text-decoration: none;
-  color: #ebebff; 
+  color: #ebebff;
   padding: 10px 0;
-  text-align: center;
-  font-weight: 500; 
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
 }
 
 .link-items a:hover {
@@ -79,7 +84,7 @@ nav div {
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
-  color: black; 
+  color: black;
   text-align: right;
   margin-bottom: 10px;
 }
@@ -494,37 +499,37 @@ nav div {
   }
 
 
-.hamburger {
-  display: none;
-}
+  .hamburger {
+    display: none;
+  }
 
-.links {
-  display: flex; 
-  flex-direction: row;
-  background-color: white; 
-  width: auto; 
-  border: none;
-  padding: 0; 
-  margin: 0;
+  .links {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: auto;
+    border: none;
+    padding: 0;
+    margin: 0;
 
-}
+  }
 
-.link-items a {
-  color: #172b4d; 
-  padding: 0 20px; 
-  text-align: left; 
-  font-weight: 500;
-  padding: 0px 10px;
-  
-}
+  .link-items a {
+    color: #172b4d;
+    padding: 0 20px;
+    text-align: left;
+    font-weight: 500;
+    padding: 0px 10px;
 
-.link-items a:hover {
-  color: #7f8cff; 
-}
+  }
 
-#closeMenu {
-  display: none; 
-}
+  .link-items a:hover {
+    color: #7f8cff;
+  }
+
+  #closeMenu {
+    display: none;
+  }
 
   #main-sec {
     height: 500px;
