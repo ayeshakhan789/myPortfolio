@@ -10,3 +10,12 @@ hamburger.addEventListener('click', function() {
 closeMenu.addEventListener('click', function() {
   mobileMenu.classList.remove('active');
 });
+
+menuLinks.forEach(link => {
+    link.addEventListener('click', function(event) {
+      event.preventDefault();    
+      mobileMenu.classList.remove('active');
+  
+    });
+  });
+
